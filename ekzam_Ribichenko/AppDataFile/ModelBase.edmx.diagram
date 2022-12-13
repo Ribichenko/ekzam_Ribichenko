@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b5c83ba487a347609db1de39bb61c0d2" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="ekzam_RibichenkoModel.Executor" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzam_RibichenkoModel.Manager" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzam_RibichenkoModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzam_RibichenkoModel.Task" Width="1.5" PointX="7.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ekzam_RibichenkoModel.User" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="ekzam_RibichenkoModel.executors_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzam_RibichenkoModel.FK_Executor_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzam_RibichenkoModel.tasks_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="ekzam_RibichenkoModel.FK_Manager_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
